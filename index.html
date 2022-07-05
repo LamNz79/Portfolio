@@ -16,62 +16,66 @@
 </head>
 
 <body class="">
-    <header class="d-flex ">
-        <div><img src="" alt=""></div>
+    <!-- <header class="d-flex justify-content-between ">
+        <div><img src="data:" alt="logo" class="w-50"></div>
         <div>
-            <button>txt</button>
-            <button>txt</button>
-            <button>txt</button>
+            <a href="#" class="text-decoration-none ">About</a>
+            <a href="#" class="text-decoration-none ">Contact</a>
         </div>
-    </header>
-    <div class="container text-center">
-        <div>
-            <h1>About me</h1>
-            <div><img src="./img/lam.jpg" alt="me"></div>
-            <div>
-                <p>some text</p>
+    </header> -->
+    <div class="container d-flex flex-column align-item-center justify-content-center">
+        <div class="box box1 d-flex align-item-center justify-content-center mx-auto my-5">
+            <div class="mx-3"><img src="./img/lam.jpg" alt="Lam_picture" id="my_pic"></div>
+            <div class="box1-txt">
+                <h1>Hi there!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis dolore ea quisquam
+                    perspiciatis? Itaque iure quis harum architecto praesentium explicabo excepturi velit odio iste
+                    vero. Dolore amet illo officiis!</p>
             </div>
         </div>
-        <div>
-            <h1>div 2</h1>
-
-            <div>
+        <div class="box box2 d-flex align-item-center justify-content-between mx-auto my-5">
+            <div class="box2-txt">
                 <h2>some text</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt enim omnis dignissimos dolor sunt
                     aperiam quaerat deleniti ullam modi perspiciatis, explicabo sed officiis veritatis nisi quae quidem
                     suscipit velit soluta?
                 </p>
             </div>
-            <div>
+            <div class="box2-skill">
                 <div>
                     <p>some skill</p>
                 </div>
             </div>
         </div>
-        <div>
-            <h1>Mentor</h1>
+        <div class="box d-flex align-item-center justify-content-center mx-auto my-5">
 
-            <div><img src="./img/lam.jpg" alt="Pierre"></div>
+
+
             <div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum necessitatibus repellendus, natus
+                <h1>Mentor</h1>
+                <img src="data:" alt="Pierre_picture">
+            </div>
+            <div class="box3-txt">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum necessitatibus repellendus,
+                    natus
                     aliquid ratione consequuntur voluptatibus voluptatem saepe debitis. Sapiente quos dolor suscipit
                     delectus velit, consequuntur vel unde ad laboriosam!</p>
             </div>
+
         </div>
-        <div>
-            <h1>div 4</h1>
+        <div class="box d-flex align-item-center justify-content-center mx-auto my-5">
 
             <div>
-                <h2>some text</h2>
+                <h2>Want to get in touch?</h2>
             </div>
             <div>
                 <form action="post">
-                    <label for="txt1">some text</label>
-                    <textarea name="txt1" id="" cols="30" rows="10" placeholder="some text"></textarea>
-                    <label for="txt2">some text</label>
-                    <textarea name="txt2" id="" cols="30" rows="10" placeholder="some text"></textarea>
+                    <label for="email">some text</label>
+                    <input type="email" name="email" id="email-inp" placeholder="Enter your email">
+                    <label for="name">some text</label>
+                    <input type="text" name="name" id="name-inp" placeholder="Enter your email">
                     <label for="txt3">some text</label>
-                    <textarea name="txt3" id="" cols="30" rows="10" placeholder="some text"></textarea>
+                    <textarea name="txt3" id="" placeholder="some text"></textarea>
                     <button type="submit">submit</button>
                 </form>
             </div>
