@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta content-type="application/javascript" charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         crossorigin="anonymous">
-    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>Portfolio</title>
 
 
 </head>
@@ -41,42 +41,73 @@
                     suscipit velit soluta?
                 </p>
             </div>
-            <div class="box2-skill">
-                <div>
-                    <p>some skill</p>
-                </div>
+            <div class="box2-skills-wrapper d-flex align-item-center justify-content-start flex-wrap text-left"
+                id="box2-skills-wrapper">
+                <!-- some skill -->
+                <!-- <div class="box2-skill">
+                    random skill
+                </div> -->
+
             </div>
         </div>
-        <div class="box d-flex align-item-center justify-content-center mx-auto my-5">
-
-
-
+        <!-- <div class="box d-flex align-item-center justify-content-center mx-auto my-5">
             <div>
-                <h1>Mentor</h1>
                 <img src="data:" alt="Pierre_picture">
             </div>
             <div class="box3-txt">
+                <h1>Mentor</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum necessitatibus repellendus,
                     natus
                     aliquid ratione consequuntur voluptatibus voluptatem saepe debitis. Sapiente quos dolor suscipit
                     delectus velit, consequuntur vel unde ad laboriosam!</p>
             </div>
 
-        </div>
-        <div class="box d-flex align-item-center justify-content-center mx-auto my-5">
+        </div> -->
+        <div class="projects_group box mx-auto my-5">
+            <h1 class="text-center">Projects</h1>
+            <div
+                class="project_container d-flex align-item-center justify-content-between mx-auto my-5 flex-wrap flex-row">
 
-            <div>
-                <h2>Want to get in touch?</h2>
+                <div class="project">
+                    <h3>pj title</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, expedita magni quod
+                    tempore rem veniam qui fugit unde facilis eaque aperiam quibusdam nobis dolorum sint cumque alias
+                    obcaecati, quam eius.
+                </div>
+                <div class="project">
+                    <h3>pj title</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum enim architecto
+                    corporis
+                    voluptate praesentium, quisquam dicta libero pariatur eveniet veritatis natus obcaecati quaerat.
+                    Asperiores eius temporibus, quo ea esse consectetur.
+                </div>
+                <div class="project">
+                    <h3>pj title</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum enim architecto
+                    corporis
+                    voluptate praesentium, quisquam dicta libero pariatur eveniet veritatis natus obcaecati quaerat.
+                    Asperiores eius temporibus, quo ea esse consectetur.
+                </div>
             </div>
+        </div>
+        <div class="contact-box box  mx-auto my-5">
+            <h3>Want to get in touch?</h3>
             <div>
                 <form action="post">
-                    <label for="email">some text</label>
-                    <input type="email" name="email" id="email-inp" placeholder="Enter your email">
-                    <label for="name">some text</label>
-                    <input type="text" name="name" id="name-inp" placeholder="Enter your email">
-                    <label for="txt3">some text</label>
-                    <textarea name="txt3" id="" placeholder="some text"></textarea>
-                    <button type="submit">submit</button>
+                    <div class="form-group-input-wrapper d-flex align-item-center justify-content-around">
+                        <label for="email">some text <input class="form-group-input" type="email" name="email"
+                                id="email-inp" placeholder="Enter your email"></label>
+
+                        <label for="name">some text <input class="form-group-input" type="text" name="name"
+                                id="name-inp" placeholder="Enter your email">
+                        </label>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <label for="txt3">some text <br> <textarea class="form-group-textarea" name=" txt3" id=""
+                                placeholder="some text"></textarea>
+                        </label>
+                        <button class="form-group-button mx-auto" type="submit">submit</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -85,7 +116,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 
 </html>
