@@ -86,3 +86,11 @@ body {
     border-radius: 8px;
     padding: 12px 25px 12px;
 }
+
+.label {
+    margin-bottom: 5px;
+    color: #8f929e;
+    letter-spacing: 0;
+    text-transform: none;
+    font-weight: 500;
+}
