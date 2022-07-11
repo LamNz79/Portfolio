@@ -2,86 +2,122 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta content-type="application/javascript" charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         crossorigin="anonymous">
-    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>Portfolio</title>
 
 
 </head>
 
 <body class="">
-    <div class="col-xs-1 text-center mt-5 text-white d-flex align-items-center justify-content-center flex-column">
-        <h1>Personal Portfolio</h1>
-        <h1>Phạm Minh Lâm</h1>
-        <h3>Back-end student</h3>
-        <div class="welcomeIcon">
-            <ul class="list-unstyled list-inline">
-                <li class=" list-inline-item  mx-2">
-                    <a href="https://www.facebook.com/ItsNotLam/" target="_blank" rel="noopener"><i
-                            class="fab fa-facebook fs-1 text-primary"></i></a>
-                </li>
-                <li class=" list-inline-item  mx-2">
-                    <a href="https://www.instagram.com/bal.dricc/" target="_blank" rel="noopener"><i
-                            class="fab fa-instagram fs-1 text-primary"></i></a>
-                </li>
-                <li class=" list-inline-item  mx-2">
-                    <a href="https://www.linkedin.com/in/l%C3%A2m-ph%E1%BA%A1m-27a8b021a/" target="_blank"
-                        rel="noopener"><i class="fab fa-linkedin fs-1 text-primary"></i></a>
-                </li>
-            </ul>
-            <div class="info_box text-center ">
-                <h1>About me</h1>
-                <div class="d-flex"><img src="./img/lam.jpg" alt="main-pic">
-                    <div class=" px-5">
-                        <p class="text-secondary">I'm Lam, i'll be Junior in august and a software engineering
-                            student
-                            at Van Lang school university.
 
-                        </p>
-                        <p class="text-secondary">
-                            Code started to be a part of me when I was the age of 16 that mean grade
-                            10. At that time i met a person nam Pierre Braun who has been helping me on the road of
-                            becoming a developer
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="info_box text-center ">
-                <h1>Projects</h1>
-                <div class="d-flex">
-                    <div>
-                        <h4 class="text-dark h6 text-left text-lowercase mx-2">HAND DETECTION TO CONTROL VOLUME</h4>
-                        <p></p>
-                    </div>
-                    <div>
-                        <h4 class="text-dark h6 text-left text-lowercase mx-2">MONOPOLY BASIC GAME</h4>
-                        <p></p>
-                    </div>
-                    <div>
-                        <h4 class="text-dark h6 text-left text-lowercase mx-2">MUSIC WEBSITE</h4>
-                        <p></p>
-                    </div>
-                    <div>
-                        <h4 class="text-dark h6 text-left text-lowercase mx-2">HOTEL MANAGER PROGRAM</h4>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-
-
+    <!-- <header class="d-flex justify-content-between ">
+        <div><img src="data:" alt="logo" class="w-50"></div>
+        <div>
+            <a href="#" class="text-decoration-none ">About</a>
+            <a href="#" class="text-decoration-none ">Contact</a>
         </div>
+    </header> -->
+    <div class="container d-flex flex-column align-item-center justify-content-center">
+        <div class="box box1 d-flex align-item-center justify-content-center mx-auto my-5">
+            <div class="mx-3"><img src="./img/lam.jpg" alt="Lam_picture" id="my_pic"></div>
+            <div class="box1-txt">
+                <h1>Hi there!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis dolore ea quisquam
+                    perspiciatis? Itaque iure quis harum architecto praesentium explicabo excepturi velit odio iste
+                    vero. Dolore amet illo officiis!</p>
+            </div>
+        </div>
+        <div class="box box2 d-flex align-item-center justify-content-between mx-auto my-5">
+            <div class="box2-txt">
+                <h2>some text</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt enim omnis dignissimos dolor sunt
+                    aperiam quaerat deleniti ullam modi perspiciatis, explicabo sed officiis veritatis nisi quae quidem
+                    suscipit velit soluta?
+                </p>
+            </div>
+            <div class="box2-skills-wrapper d-flex align-item-center justify-content-start flex-wrap text-left"
+                id="box2-skills-wrapper">
+                <!-- some skill -->
+                <!-- <div class="box2-skill">
+                    random skill
+                </div> -->
 
+            </div>
+        </div>
+        <!-- <div class="box d-flex align-item-center justify-content-center mx-auto my-5">
+            <div>
+                <img src="data:" alt="Pierre_picture">
+            </div>
+            <div class="box3-txt">
+                <h1>Mentor</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum necessitatibus repellendus,
+                    natus
+                    aliquid ratione consequuntur voluptatibus voluptatem saepe debitis. Sapiente quos dolor suscipit
+                    delectus velit, consequuntur vel unde ad laboriosam!</p>
+            </div>
+
+        </div> -->
+        <div class="projects_group box mx-auto my-5">
+            <h1 class="text-center">Projects</h1>
+            <div
+                class="project_container d-flex align-item-center justify-content-between mx-auto my-5 flex-wrap flex-row">
+
+                <div class="project">
+                    <h3>pj title</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, expedita magni quod
+                    tempore rem veniam qui fugit unde facilis eaque aperiam quibusdam nobis dolorum sint cumque alias
+                    obcaecati, quam eius.
+                </div>
+                <div class="project">
+                    <h3>pj title</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum enim architecto
+                    corporis
+                    voluptate praesentium, quisquam dicta libero pariatur eveniet veritatis natus obcaecati quaerat.
+                    Asperiores eius temporibus, quo ea esse consectetur.
+                </div>
+                <div class="project">
+                    <h3>pj title</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum enim architecto
+                    corporis
+                    voluptate praesentium, quisquam dicta libero pariatur eveniet veritatis natus obcaecati quaerat.
+                    Asperiores eius temporibus, quo ea esse consectetur.
+                </div>
+            </div>
+        </div>
+        <div class="contact-box box  mx-auto my-5">
+            <h3>Want to get in touch?</h3>
+            <div>
+                <form action="post">
+                    <div class="form-group-input-wrapper d-flex align-item-center justify-content-around">
+                        <label for="email">some text <input class="form-group-input" type="email" name="email"
+                                id="email-inp" placeholder="Enter your email"></label>
+
+                        <label for="name">some text <input class="form-group-input" type="text" name="name"
+                                id="name-inp" placeholder="Enter your email">
+                        </label>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <label for="txt3">some text <br> <textarea class="form-group-textarea" name=" txt3" id=""
+                                placeholder="some text"></textarea>
+                        </label>
+                        <button class="form-group-button mx-auto" type="submit">submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
+    <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 
 </html>

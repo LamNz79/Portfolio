@@ -1,29 +1,88 @@
 body {
     background-color: #eeeff1;
+    font-family: Poppins, sans-serif;
+
 }
 
-.info_box {
-
-    background-color: white !important;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 20px;
-    align-items: baseline;
+.container {
+    max-width: 500px;
 }
 
-.info_box img {
-    width: 30%;
-    height: 100%;
+#my_pic {
+    width: 100%;
     border-radius: 10px;
+
 }
 
-.info_box p {
+.box1-txt {
+    max-width: 70%;
+}
 
-    text-align: left !important;
+.box {
+    max-width: 70%;
+}
+
+.box2-txt {
+    max-width: 50%;
+}
+
+.box3-txt {
+    max-width: 70%;
+}
+
+.box2-skill {
+    border: 1px solid #ced1df;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin: 10px 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    height: 25px;
+}
+
+.box2-skills-wrapper {
+    height: 25px;
+}
+
+.contact-box {
+    border: 1px solid #ccc;
+    padding: 100px;
 }
 
 
-.info_box h1 {
-    text-align: left;
-    color: black;
+.form-group-input {
+    margin: 10px;
+    background-color: hsla(0, 0%, 100%, .5);
+    padding: 5px 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    height: 38px;
+}
+
+.contact-box h2 {
+    flex: 2;
+
+}
+
+.form-group-input-wrapper {
+    flex: 1;
+}
+
+.form-group-textarea {
+    width: 96%;
+    margin: 10px;
+    background-color: hsla(0, 0%, 100%, .5);
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+
+    height: 100px;
+
+}
+
+.form-group-button {
+    text-align: center;
+    background-color: #1a1b1f;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 25px 12px;
 }
